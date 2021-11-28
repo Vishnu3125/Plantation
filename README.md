@@ -1,34 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### A basic template to get started with HTML, CSS, and JavaScript
 
-## Getting Started
+This project is a fork of the [HTML5 Boilerplate](http://html5boilerplate.com).  
+It has been simplified for those starting out with web development and programming.
 
-First, run the development server:
+An [**example site**](http://pfnp.adrianbautista.com) built with this template.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Quick start
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### How to download this template:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+1. **Easy Way** - Download the `.zip` file
+   * You can use the "Download ZIP" button in the right sidebar or click [this link](https://github.com/adrianbautista/html-css-template/archive/pfnp.zip).
+   * Unzip the template by double clicking on the downloaded `html-css-template-pfnp.zip` file.
+2. **Programmer Way** - Clone the Git Repo
+   * If you have git on your computer and a github account, you can clone this project from the command line
+     ```
+     git clone https://github.com/adrianbautista/html-css-template.git
+     ```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### How to use this template:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+1. Opening the template
+     * If you downloaded the zip file, open the unzipped **folder** `html-css-template-pfnp` in a text editor  
+     (e.g. [Sublime Text 2](http://www.sublimetext.com/2)).
+     * If you cloned the project using git, open the **folder** `html-css-template` in a text editor  
+     (e.g. [Sublime Text 2](http://www.sublimetext.com/2)).
 
-## Learn More
+2. Using the template  
+  
+   #### HTML
+     * Start with `index.html`, this will be your root page (the main page)  
+       Questions about its content? Refer to `template.html`  
+     * To make new HTML pages, duplicate `template.html` inside the folder and rename it to the URL path you want.  
+       ```
+       about.html => my_website.com/about
+       ```  
+       *It's recommended that you delete the explanation comments in any new HTML pages*
 
-To learn more about Next.js, take a look at the following resources:
+   #### CSS
+     * Start with `main.css` inside the `css` folder
+     * What are `normalize.css` and `html5-boilerplate.css` for?  
+       They make basic styles consistent across all kinds of web browsers
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   #### JavaScript
+     * Start with `main.js` inside the `js` folder
+     * What's jQuery? It's a JavaScript library that allows you to manipulate your website much more easily with JavaScript
+     * If you download any jQuery plugins, paste a minified version of them into `plugins.js`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   #### Images
+     * If you want to host your own images, put the image file (.jpg, .png, .gif) inside the images directory.  
+       Then the source on an **img tag** will be  
+       ```
+       <img src="/images/your_picture.jpg">
+       ```
