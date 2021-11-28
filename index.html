@@ -7,7 +7,9 @@
 
         <meta name="description" content="">
         <link rel="shortcut icon" href="synapse-logo.ico">
+
         <script src="https://unpkg.com/typeit@8.0.7/dist/index.umd.js"></script>
+        <script src="https://unpkg.com/scrollreveal"></script>
 
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -40,27 +42,27 @@
 
         <section class="tiles-section">
             <div class="tile-main-title">
-                Setps to grow your plant
+                Steps to grow your plant
             </div>
             <div class="tile-main-sub-title">
                 Follow instruction for more info
             </div>
             <div class="tiles-div">
-                <div class="tile">
+                <div class="tile tile-one">
                     <div class="tile-one-blob"> </div>
                     <img src="./images/plant.png" alt="" width="250px" height="250px">
                     <br>
                     <span class="tile-title">Inoculate</span> <br>
                     <span class="tile-sub-title">Coating the seed with bacteria that allow it to fix nitrogen soil</span>
                 </div>
-                <div class="tile">
+                <div class="tile tile-two">
                     <div class="tile-two-blob"> </div>
                     <img src="./images/plant2.png" alt="" width="250px" height="250px">
                     <br>
                     <span class="tile-title">Sow the seeds</span> <br>
                     <span class="tile-sub-title">The quantities of our additions are not an exact science</span>
                 </div>
-                <div class="tile">
+                <div class="tile tile-tre">
                     <div class="tile-tre-blob"> </div>
                     <img src="./images/plant3.png" alt="" width="250px" height="250px">
                     <br>
@@ -196,6 +198,25 @@
             .go().destroy()
             typeitflag = 1
         });
+
+        // ScrollReveal().reveal('.main-background');
+        ScrollReveal().reveal('.tile-main-title', {delay: 200, origin:'top', distance: '100px', duration:1500});
+        ScrollReveal().reveal('.tile-main-sub-title', {delay: 200, origin:'top', distance: '100px', duration:1500});
+        ScrollReveal().reveal('.tile-one', {delay: 200, origin:'left', distance: '100px', duration:1500});
+        ScrollReveal().reveal('.tile-two', {delay: 200, origin:'bottom', distance: '100px', duration:1500});
+        ScrollReveal().reveal('.tile-tre', {delay: 200, origin:'right', distance: '100px', duration:1500});
+
+        ScrollReveal().reveal('.info-one', {delay: 200, origin:'top', distance: '100px', duration:1500, viewOffset: {bottom: 200 }});
+        ScrollReveal().reveal('.info-two', {delay: 200, origin:'left', distance: '100px', duration:1500, viewOffset: {bottom: 250 }});
+        ScrollReveal().reveal('.info-three', {delay: 200, origin:'right', distance: '100px', duration:1500, viewOffset: {bottom: 250 }});
+        ScrollReveal().reveal('.info-four', {delay: 200, origin:'left', distance: '100px', duration:1500, viewOffset: {bottom: 250 }});
+        ScrollReveal().reveal('.info-five', {delay: 200, origin:'right', distance: '100px', duration:1500, viewOffset: {bottom: 250 }});
+        ScrollReveal().reveal('.info-six', {delay: 200, origin:'left', distance: '100px', duration:1500, viewOffset: {bottom: 250 }});
+        ScrollReveal().reveal('.info-seven', {delay: 200, origin:'right', distance: '100px', duration:1500, viewOffset: {bottom: 250 }});
+        ScrollReveal().reveal('.info-eight', {delay: 200, origin:'left', distance: '100px', duration:1500, viewOffset: {bottom: 250 }});
+        ScrollReveal().reveal('.info-nine', {delay: 200, origin:'right', distance: '100px', duration:1500, viewOffset: {bottom: 250 }});
+
+        ScrollReveal().reveal('.map-section-main-div', {delay: 200, origin:'top', distance: '100px', duration:1500});
 
     </script>
 </html>
