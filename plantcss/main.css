@@ -14,6 +14,7 @@ fonts : font-family: 'Roboto', sans-serif;
 
 body{
     margin: 0;
+    overflow-x: hidden;
 }
 
 .main-head-patern{
@@ -420,82 +421,15 @@ body{
           CSS styles for smartphones and screens smaller than 480 px
    ========================================================================== */
 
-@media only screen and (max-width: 500px){
-
-    .main-body{
-        width: 400vw;
-        overflow-x: hidden;
-     }
-
-    .synapse-logo{
-        width: 150px;
-        height: 150px;
-    }
-
-    .main-background{
-        /* color: aquamarine; */
-        height: 2650px;
-        width: 100%;
-    }
-
-    .main-head-title{
-        font-weight: 900;
-        position: absolute;
-        font-size: 4rem;
-        /* padding: 10px; */
-    }
-    
-    .main-head-title-one{
-        top: 650px;
-    }
-    
-    .main-head-title-two{
-        top: 800px;
-        /* left: 475px; */
-    }
-
-    .main-plant{
-        height: 850px;
-        width: 870px;
-        top: 1270px;
-        left: 250px;
-        position: absolute;
-    }
-
+@media only screen and (min-width: 400px){
     .main-head-blob {
-        position: absolute;
-        top: 1270px;
-        left: 250px;
-    }
-
-    .main-head-content{
-        width: 80%;
-        font-weight: 400;
-        color: #637267b7;
-        font-size: 60px;
-        position: absolute;
-        top:1500px;
-        left: 123px;
+        top: 125px;
+        right: 130px;
     }
     
-    .main-head-blog-properties{
-        width: 800px;
-        height: 800px;
-    }
-
-    .main-head-join-button{
-        font-size: 25px;
-        width: 220px;
-        height: 70px;
-        position: absolute;
-        top: 2400px;
-        left: 550px;
-    }
-
     .main-head-blob-outline {
-        position: absolute;
-        top: 770px;
-        left: 280px;
+        top: 130px;
+        right: 70px;
       }
 }
 
