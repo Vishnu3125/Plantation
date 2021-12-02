@@ -9,7 +9,8 @@ fonts : font-family: 'Roboto', sans-serif;
 /* ==========================================================================
                                   custom CSS styles
    ========================================================================== */
- 
+
+
 
 body{
     margin: 0;
@@ -32,6 +33,7 @@ body{
     height: 750px;
     background: rgb(122,189,160);
     background: linear-gradient(180deg, rgba(122,189,160,0.7063200280112045) 0%, rgba(104,233,117,0.14889705882352944) 0%, rgba(255,255,255,1) 100%);
+    
 }
 
 .synapse-logo{
@@ -96,44 +98,6 @@ body{
     top: 205px;
     right: 150px;
     position: absolute;
-}
-
-@media  (min-width: 480px){
-    .main-plant{
-        height: 450px;
-        width: 470px;
-        top: 770px;
-        left: 450px;
-        position: absolute;
-    }
-    .main-head-content{
-        width: 70%;
-        font-weight: 400;
-        color: #637267b7;
-        font-size: 32px;
-        position: absolute;
-        top:340px;
-        left: 123px;
-    }
-    .main-head-blob {
-        position: absolute;
-        top: 770px;
-        left: 450px;
-
-    }
-    .main-head-join-button{
-        font-size: 25px;
-        width: 220px;
-        height: 70px;
-        position: absolute;
-        top: 660px;
-        left: 550px;
-    }
-    .main-head-blob-outline {
-        position: absolute;
-        top: 770px;
-        left: 450px;
-      }
 }
 
 
@@ -456,11 +420,83 @@ body{
           CSS styles for smartphones and screens smaller than 480 px
    ========================================================================== */
 
-@media only screen and (max-width: 480px) {
-    /* insert styles here */
-    .main-background{
-        
+@media only screen and (max-width: 500px){
+
+    .main-body{
+        width: 400vw;
+        overflow-x: hidden;
+     }
+
+    .synapse-logo{
+        width: 150px;
+        height: 150px;
     }
+
+    .main-background{
+        /* color: aquamarine; */
+        height: 2650px;
+        width: 100%;
+    }
+
+    .main-head-title{
+        font-weight: 900;
+        position: absolute;
+        font-size: 4rem;
+        /* padding: 10px; */
+    }
+    
+    .main-head-title-one{
+        top: 650px;
+    }
+    
+    .main-head-title-two{
+        top: 800px;
+        /* left: 475px; */
+    }
+
+    .main-plant{
+        height: 850px;
+        width: 870px;
+        top: 1270px;
+        left: 250px;
+        position: absolute;
+    }
+
+    .main-head-blob {
+        position: absolute;
+        top: 1270px;
+        left: 250px;
+    }
+
+    .main-head-content{
+        width: 80%;
+        font-weight: 400;
+        color: #637267b7;
+        font-size: 60px;
+        position: absolute;
+        top:1500px;
+        left: 123px;
+    }
+    
+    .main-head-blog-properties{
+        width: 800px;
+        height: 800px;
+    }
+
+    .main-head-join-button{
+        font-size: 25px;
+        width: 220px;
+        height: 70px;
+        position: absolute;
+        top: 2400px;
+        left: 550px;
+    }
+
+    .main-head-blob-outline {
+        position: absolute;
+        top: 770px;
+        left: 280px;
+      }
 }
 
 /* .main-head-blob-pattern { 
